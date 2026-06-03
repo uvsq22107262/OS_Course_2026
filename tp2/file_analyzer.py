@@ -39,5 +39,5 @@ def analyze_directory(dir_path):
     print("=" * 60)
 
 if __name__ == "__main__":
-    target_directory = "/content"  # dossier par défaut de Google Colab
-    analyze_directory(target_directory) 
+    target_directory = "."  # fonctionne partout : Colab, Windows, Linux
+    analyze_directory(target_directory)
